@@ -1,0 +1,34 @@
+\documentclass[]{article}
+\usepackage[spanish]{babel}
+
+%opening
+\title{Ecuaciones Diferenciales I}
+\author{Jose Pimentel Mesones}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+\end{abstract}
+
+\section{Tema 1 Metodos elementales de Integraci\'on}
+Definición: Una ecuaci\'on diferencial (ordinaria) es una relación en la que interviene una variable independiente $(t)$ una dependiente $(x=x(t))$ y sus derivadas $R=(t,x,x^\prime,...,x^n)=0$\\
+\begin{itemize}
+	\item El orden de la ED es el mayor de derivaci\'on: $x^{\prime\prime}+tgx^\prime-x^{43}=0$ ; orden 2
+	\item[-] Una ED est\'a en forma normal cuando aparece la derivada de mayor orden despejada y cuando no se dice que esta en forma impl\'icita.
+	\item Una solución de la ED es una funci\'on $X:I\rightarrow R^n$ siendo I un abierto en $R$ que admite n derivadas en todo punto de $I$ cumpliendo en dichos puntos la ecuación descrita\\
+	Por ejemplo $x^{\prime\prime}=\cos t$ su soluci\'on es $x(t)=-\cos t +k+ct$
+\end{itemize} 
+\subsection{Problema de Valores Iniciales:} Problema de Cauchy o PVI consiste en buscar una soluci\'n a la ecuaci\'on que cumpla $x\prime(t)=f(t,x(t))$ y $x(t_0)=x_0$ siendo $(x_0,t_0)\in D$ y $f:D\subset R\to R^2$\\
+Un PVI esta bien definido $\Leftrightarrow  \left \{ \begin{array}{lccl}
+\exists\ solucion\\ 
+Es\ unica\\
+Depende\ continuamente\ de\ los\ datos\ del\ problema
+\end{array} \right.$
+Ejemplo:  $\left \{ \begin{array}{lccl}
+	x^\prime=\sin t\\
+	x_0=27
+\end{array} \right.\Rightarrow x(t)=-\cos t+k\Rightarrow x_0=-\cos 0+k=27\Rightarrow k=28	$
+\end{document}
